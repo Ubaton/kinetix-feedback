@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an improvement to Kinetix.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about the problem you want to solve. Requests help guide priorities but do not guarantee implementation or a delivery date.
+        This issue is public. Do not include personal information or private workspace content.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this suggestion.
+          required: true
+        - label: This request contains no sensitive information.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe your workflow, who is affected and what is difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested improvement
+      description: What would you like Kinetix to do, and how would it help?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or current workaround
+      description: Optional. How do you handle this today?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional. Add examples or screenshots without private information.

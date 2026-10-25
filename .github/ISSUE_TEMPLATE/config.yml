@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support or account help
+    url: mailto:support@kinetix-app.com
+    about: For account problems, sensitive reports or help without a GitHub account.
+  - name: Use Kinetix
+    url: https://kinetix-app.com/
+    about: Open the app. You can also contact support through Settings > Help.
